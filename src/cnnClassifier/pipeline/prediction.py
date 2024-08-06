@@ -10,7 +10,7 @@ class PredictionPipeline:
         self.filename =filename
 
 
-    
+      
     def predict(self):
         # load model
         model = load_model(os.path.join("model", "model.h5"))
