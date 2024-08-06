@@ -320,3 +320,13 @@ Traceback (most recent call last):
     raise IOError(
 OSError: No file or directory found at artifact\training\model.h5
 [2024-08-06 13:13:09,076: INFO: _internal: 127.0.0.1 - - [06/Aug/2024 13:13:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-08-06 13:14:06,542: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.5:8080]
+[2024-08-06 13:14:06,542: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-08-06 13:14:21,155: INFO: _internal: 192.168.1.5 - - [06/Aug/2024 13:14:21] "GET / HTTP/1.1" 200 -]
+[2024-08-06 13:14:32,989: INFO: _internal: 192.168.1.5 - - [06/Aug/2024 13:14:32] "POST /predict HTTP/1.1" 200 -]
+[2024-08-06 13:14:51,670: INFO: _internal: 192.168.1.5 - - [06/Aug/2024 13:14:51] "POST /predict HTTP/1.1" 200 -]
+[2024-08-06 13:14:54,862: INFO: _internal: 192.168.1.5 - - [06/Aug/2024 13:14:54] "POST /predict HTTP/1.1" 200 -]
+[2024-08-06 13:15:05,670: INFO: _internal: 192.168.1.5 - - [06/Aug/2024 13:15:05] "POST /predict HTTP/1.1" 200 -]
